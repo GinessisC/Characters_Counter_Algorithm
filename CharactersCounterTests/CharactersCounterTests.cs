@@ -29,9 +29,6 @@ namespace CharactersCounter.Tests
         public void CountCharacters_NoDublicateCharCounting_NoDublicateChar() //for string without dublicate chars
         {
             string actualWithoutDublicates = GetActualResult(strToTestWithoutDublicates);
-            //CharactersCounter withoutDublicatesCharactersCounter = new(stringToTestWithoutDublicates);
-            //var actualWithoutDublicates = withoutDublicatesCharactersCounter
-            //    .CountCharacters();
             Assert.AreEqual(expectedWithoutDublicates, actualWithoutDublicates); 
         }
         [TestMethod()]

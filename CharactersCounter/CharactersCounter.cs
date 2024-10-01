@@ -10,20 +10,6 @@ namespace CharactersCounter
             _stringToEnter = stringToEnter;
         }
 
-        //TODO: 
-        //0. Create all the requirements.
-        //
-        //1. Remove all chars that are not letters from string
-        //2. Casting all the characters to lowercase
-        //3. Once we got row str to handle, we 
-        //4. Start the algorithm: ...
-        //  take str and do .ToCharArray() 
-        //  look through entire char array using for-cycle
-        //  create a counter and store one char in varuable
-        //  start inner for-cycle to look for the same chars
-        //  add the results: letter:count,(backspace)
-        //  remove all chars in case if they are equal. if u don`t have same chars - remove that one char from char array
-        //  repeat the cycle
         
         private List<char> GetCharArrayOfLetters(List<char> charListToSort) =>
             charListToSort.Where(c => char.IsLetter(c)).ToList();
@@ -49,7 +35,6 @@ namespace CharactersCounter
 
             for (int i = 0; i < charsOfInputString.Count; i++)
             {
-                //var charsForInnerChecking = charsOfInputString;
                 int count = 0;
                 char currentChar = charsOfInputString[i];
 
@@ -60,8 +45,6 @@ namespace CharactersCounter
                     if (char.ToLower(currentChar) == readyCharToHandle && !charactersCountResultString.Contains(char.ToLower(readyCharToHandle)))
                     {
                         count++;
-                        //charsOfInputString.Remove(readyCharToHandle);
-
                     }
                 }
 
