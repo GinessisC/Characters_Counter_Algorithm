@@ -1,0 +1,4 @@
+D:\work\Study\CountCharactersAlgorythm\CountCharactersAlgorythm\obj\Debug\net8.0\CountCharactersAlgorythm.GeneratedMSBuildEditorConfig.editorconfig
+D:\work\Study\CountCharactersAlgorythm\CountCharactersAlgorythm\obj\Debug\net8.0\CountCharactersAlgorythm.AssemblyInfoInputs.cache
+D:\work\Study\CountCharactersAlgorythm\CountCharactersAlgorythm\obj\Debug\net8.0\CountCharactersAlgorythm.AssemblyInfo.cs
+D:\work\Study\CountCharactersAlgorythm\CountCharactersAlgorythm\obj\Debug\net8.0\CountCharactersAlgorythm.csproj.CoreCompileInputs.cache
