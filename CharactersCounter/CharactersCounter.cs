@@ -1,36 +1,43 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace CharactersCounter
 {
     public class CharactersCounter
     {
-        private string _stringToEnter;
+        private readonly string _stringToEnter;
+
+        private readonly string _separator = ", ";
+        private readonly int _zeroCountOfCharsInStr = 0;
+        private readonly int _countOfExtraEndingInTheString = 2;
+
+
         public CharactersCounter(string stringToEnter)
         {
             _stringToEnter = stringToEnter;
         }
 
-        
-        private List<char> GetCharArrayOfLetters(List<char> charListToSort) =>
-            charListToSort.Where(c => char.IsLetter(c)).ToList();
-
-        private string RemoveDublicates(string stringToSort)
+        private List<char> GetCharArrayOfLetters(List<char> charListToSort)
         {
-            string NoDublicates = string.Empty;
-            var noDublicatesList = stringToSort.Split(", ")
-                .Where(letterAndSumPair => !letterAndSumPair.Contains("0")).ToList();
-
-            foreach (var item in noDublicatesList)
-            {
-                NoDublicates += $"{item}, ";
-            }
-            return NoDublicates.Remove(NoDublicates.Length - 4);
+            return charListToSort.Where(c => char.IsLetter(c)).ToList();
         }
+        
             
-
-        public string CountCharacters()
+        public string CountCharactersString()
         {
-            string charactersCountResultString = string.Empty;
+            var charsCountsKeyValuePairs = CountCharacters();
+            string charsCountResultString = string.Empty;
+            foreach (var item in charsCountsKeyValuePairs)
+            {
+                charsCountResultString += $"{item.Key}:{item.Value}, ";
+            }
+            return charsCountResultString.Remove(charsCountResultString.Length - _countOfExtraEndingInTheString);
+        }
+
+        public virtual IEnumerable<KeyValuePair<char, int>> CountCharacters()
+        {
+            Dictionary<char, int> charCountkeyValuePairs = new Dictionary<char, int>() { };
+
             var charsOfInputString = GetCharArrayOfLetters(_stringToEnter.ToList<char>()); //Casting to list for more func-s
 
             for (int i = 0; i < charsOfInputString.Count; i++)
@@ -42,16 +49,18 @@ namespace CharactersCounter
                 {
                     var readyCharToHandle = char.ToLower(charsOfInputString[j]);
 
-                    if (char.ToLower(currentChar) == readyCharToHandle && !charactersCountResultString.Contains(char.ToLower(readyCharToHandle)))
+                    if (char.ToLower(currentChar) == readyCharToHandle && !charCountkeyValuePairs
+                        .ContainsKey(char.ToLower(readyCharToHandle)))
                     {
                         count++;
                     }
                 }
-
-                charactersCountResultString += $"{char.ToLower(currentChar)}:{count}, ";
+                if (!charCountkeyValuePairs.ContainsKey(currentChar))
+                {
+                    charCountkeyValuePairs.Add(char.ToLower(currentChar), count);
+                }
             }
-            var sortedString = RemoveDublicates(charactersCountResultString);
-            return sortedString;
+            return charCountkeyValuePairs;
         }
     }
 }

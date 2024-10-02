@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CharactersCounterTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+37c5e80f6510993c3942f7b692fb234466a85082")]
 [assembly: System.Reflection.AssemblyProductAttribute("CharactersCounterTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CharactersCounterTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

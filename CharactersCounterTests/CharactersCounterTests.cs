@@ -10,41 +10,41 @@ namespace CharactersCounter.Tests
     [TestClass()]
     public class CharactersCounterTests
     {
-        private const string strToTestWithoutDublicates = "abcd efgh";
-        private const string expectedWithoutDublicates = "a:1, b:1, c:1, d:1, e:1, f:1, g:1, h:1";
+        private const string StrToTestWithoutDublicates = "abcd efgh";
+        private const string ExpectedWithoutDublicates = "a:1, b:1, c:1, d:1, e:1, f:1, g:1, h:1";
 
-        private const string strToTestWithDublicates = "Test";
-        private const string expectedWithDublicates = "t:2, e:1, s:1";
+        private const string StrToTestWithDublicates = "Test";
+        private const string ExpectedWithDublicates = "t:2, e:1, s:1";
 
-        private const string strToTestWithOtherChars = "a1bcd efgth";
-        private const string expectedWithOtherChars = "a:1, b:1, c:1, d:1, e:1, f:1, g:1, t:1, h:1";
+        private const string StrToTestWithOtherChars = "a1bcd efgth";
+        private const string ExpectedWithOtherChars = "a:1, b:1, c:1, d:1, e:1, f:1, g:1, t:1, h:1";
 
         private string GetActualResult(string stringToTest)
         {
-            CharactersCounter CharactersCounter = new(stringToTest);
-            return CharactersCounter.CountCharacters();
+            CharactersCounter charactersCounter = new(stringToTest);
+            return charactersCounter.CountCharactersString();
         }
-
+        
         [TestMethod()]
         public void CountCharacters_NoDublicateCharCounting_NoDublicateChar() //for string without dublicate chars
         {
-            string actualWithoutDublicates = GetActualResult(strToTestWithoutDublicates);
-            Assert.AreEqual(expectedWithoutDublicates, actualWithoutDublicates); 
+            var actualWithoutDublicates = GetActualResult(StrToTestWithoutDublicates);
+            Assert.AreEqual(ExpectedWithoutDublicates, actualWithoutDublicates); 
+
         }
         [TestMethod()]
         public void CountCharacters_DublicateCharCounting_DublicateChar() //for string with dublicate chars 
         {
-            
-            string actualWithDublicates = GetActualResult(strToTestWithDublicates);
-            Assert.AreEqual(expectedWithDublicates, actualWithDublicates); 
- 
+
+            string actualWithDublicates = GetActualResult(StrToTestWithDublicates);
+            Assert.AreEqual(ExpectedWithDublicates, actualWithDublicates);
         }
 
         [TestMethod()]
         public void CountCharacters_StrWithOtherCharsCharCounting_NoNumbers() //for string with numbers
         {
-            string actualStrWithOtherChars = GetActualResult(strToTestWithOtherChars);
-            Assert.AreEqual(expectedWithOtherChars, actualStrWithOtherChars);  
+            string actualStrWithOtherChars = GetActualResult(StrToTestWithOtherChars);
+            Assert.AreEqual(ExpectedWithOtherChars, actualStrWithOtherChars);
         }
     }
 }

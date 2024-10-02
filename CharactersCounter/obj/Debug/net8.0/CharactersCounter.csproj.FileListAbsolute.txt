@@ -9,3 +9,4 @@ D:\work\Study\CountCharactersAlgorythm\CharactersCounter\obj\Debug\net8.0\Charac
 D:\work\Study\CountCharactersAlgorythm\CharactersCounter\obj\Debug\net8.0\refint\CharactersCounter.dll
 D:\work\Study\CountCharactersAlgorythm\CharactersCounter\obj\Debug\net8.0\CharactersCounter.pdb
 D:\work\Study\CountCharactersAlgorythm\CharactersCounter\obj\Debug\net8.0\ref\CharactersCounter.dll
+D:\work\Study\CountCharactersAlgorythm\CharactersCounter\obj\Debug\net8.0\CharactersCounter.sourcelink.json

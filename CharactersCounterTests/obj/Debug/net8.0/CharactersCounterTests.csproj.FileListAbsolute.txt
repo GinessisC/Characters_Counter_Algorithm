@@ -112,3 +112,4 @@ D:\work\Study\CountCharactersAlgorythm\CharactersCounterTests\obj\Debug\net8.0\r
 D:\work\Study\CountCharactersAlgorythm\CharactersCounterTests\obj\Debug\net8.0\CharactersCounterTests.pdb
 D:\work\Study\CountCharactersAlgorythm\CharactersCounterTests\obj\Debug\net8.0\CharactersCounterTests.genruntimeconfig.cache
 D:\work\Study\CountCharactersAlgorythm\CharactersCounterTests\obj\Debug\net8.0\ref\CharactersCounterTests.dll
+D:\work\Study\CountCharactersAlgorythm\CharactersCounterTests\obj\Debug\net8.0\CharactersCounterTests.sourcelink.json
