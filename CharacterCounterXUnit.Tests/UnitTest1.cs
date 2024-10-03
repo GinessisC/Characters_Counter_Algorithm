@@ -2,7 +2,7 @@ using CharactersCounter;
 using Xunit;
 namespace CharacterCounterXUnit.Tests
 {
-    public class UnitTest1
+    public class CharacterCounterXUnitTests
     {
         private const string StrToTestWithoutDublicates = "abcd efgh";
         private const string ExpectedWithoutDublicates = "a:1, b:1, c:1, d:1, e:1, f:1, g:1, h:1";
@@ -22,7 +22,6 @@ namespace CharacterCounterXUnit.Tests
         [Fact]
         public void CountCharacters_DublicateCharCounting_DublicateChar() //for string with dublicate chars 
         {
-
             string actualWithDublicates = GetActualResult(StrToTestWithDublicates);
             Assert.Equal(ExpectedWithDublicates, actualWithDublicates);
         }
