@@ -1,9 +1,4 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CharactersCounter.Tests
 {
@@ -21,7 +16,7 @@ namespace CharactersCounter.Tests
 
         private string GetActualResult(string stringToTest)
         {
-            CharactersCounter charactersCounter = new(stringToTest);
+            CharactersCounterExecuter charactersCounter = new(stringToTest);
             return charactersCounter.CountCharactersString();
         }
         

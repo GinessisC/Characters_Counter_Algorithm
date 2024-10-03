@@ -12,3 +12,8 @@ D:\work\Study\CountCharactersAlgorythm\CountCharactersAlgorythm\obj\Debug\net8.0
 D:\work\Study\CountCharactersAlgorythm\CountCharactersAlgorythm\obj\Debug\net8.0\MainProj.pdb
 D:\work\Study\CountCharactersAlgorythm\CountCharactersAlgorythm\obj\Debug\net8.0\MainProj.genruntimeconfig.cache
 D:\work\Study\CountCharactersAlgorythm\CountCharactersAlgorythm\obj\Debug\net8.0\ref\MainProj.dll
+D:\work\Study\CountCharactersAlgorythm\CountCharactersAlgorythm\bin\Debug\net8.0\CharactersCounter.dll
+D:\work\Study\CountCharactersAlgorythm\CountCharactersAlgorythm\bin\Debug\net8.0\CharactersCounter.pdb
+D:\work\Study\CountCharactersAlgorythm\CountCharactersAlgorythm\obj\Debug\net8.0\MainProj.csproj.AssemblyReference.cache
+D:\work\Study\CountCharactersAlgorythm\CountCharactersAlgorythm\obj\Debug\net8.0\MainProj.sourcelink.json
+D:\work\Study\CountCharactersAlgorythm\CountCharactersAlgorythm\obj\Debug\net8.0\MainProj.csproj.Up2Date
