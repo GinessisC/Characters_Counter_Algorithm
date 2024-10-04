@@ -10,7 +10,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MainProj", "CountCharacters
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CharactersCounter", "CharactersCounter\CharactersCounter.csproj", "{9F1017B1-C4D3-4653-A39B-73E61AA1EF1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharacterCounterXUnit.Tests", "CharacterCounterXUnit.Tests\CharacterCounterXUnit.Tests.csproj", "{1FDC0597-1621-4DA4-AE03-1A83BD39F323}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharacterCounter.Tests", "CharacterCounterXUnit.Tests\CharacterCounter.Tests.csproj", "{1FDC0597-1621-4DA4-AE03-1A83BD39F323}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

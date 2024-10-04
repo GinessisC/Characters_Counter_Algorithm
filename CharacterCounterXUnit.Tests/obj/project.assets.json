@@ -5530,9 +5530,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\work\\Study\\CountCharactersAlgorythm\\CharacterCounterXUnit.Tests\\CharacterCounterXUnit.Tests.csproj",
-      "projectName": "CharacterCounterXUnit.Tests",
-      "projectPath": "D:\\work\\Study\\CountCharactersAlgorythm\\CharacterCounterXUnit.Tests\\CharacterCounterXUnit.Tests.csproj",
+      "projectUniqueName": "D:\\work\\Study\\CountCharactersAlgorythm\\CharacterCounterXUnit.Tests\\CharacterCounter.Tests.csproj",
+      "projectName": "CharacterCounter.Tests",
+      "projectPath": "D:\\work\\Study\\CountCharactersAlgorythm\\CharacterCounterXUnit.Tests\\CharacterCounter.Tests.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
       "outputPath": "D:\\work\\Study\\CountCharactersAlgorythm\\CharacterCounterXUnit.Tests\\obj\\",
       "projectStyle": "PackageReference",

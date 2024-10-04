@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k5H8LWiZvA8=",
+  "dgSpecHash": "F8FkuLmnBow=",
   "success": true,
-  "projectFilePath": "D:\\work\\Study\\CountCharactersAlgorythm\\CharacterCounterXUnit.Tests\\CharacterCounterXUnit.Tests.csproj",
+  "projectFilePath": "D:\\work\\Study\\CountCharactersAlgorythm\\CharacterCounterXUnit.Tests\\CharacterCounter.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
