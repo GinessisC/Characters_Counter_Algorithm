@@ -1,7 +1,0 @@
-D:\work\Study\CountCharactersAlgorythm\CharacterCounterXUnit.Tests\bin\Debug\net8.0\CoverletSourceRootsMapping_CharacterCounterXUnit.Tests
-D:\work\Study\CountCharactersAlgorythm\CharacterCounterXUnit.Tests\obj\Debug\net8.0\CharacterCounterXUnit.Tests.csproj.AssemblyReference.cache
-D:\work\Study\CountCharactersAlgorythm\CharacterCounterXUnit.Tests\obj\Debug\net8.0\CharacterCounterXUnit.Tests.GeneratedMSBuildEditorConfig.editorconfig
-D:\work\Study\CountCharactersAlgorythm\CharacterCounterXUnit.Tests\obj\Debug\net8.0\CharacterCounterXUnit.Tests.AssemblyInfoInputs.cache
-D:\work\Study\CountCharactersAlgorythm\CharacterCounterXUnit.Tests\obj\Debug\net8.0\CharacterCounterXUnit.Tests.AssemblyInfo.cs
-D:\work\Study\CountCharactersAlgorythm\CharacterCounterXUnit.Tests\obj\Debug\net8.0\CharacterCounterXUnit.Tests.csproj.CoreCompileInputs.cache
-D:\work\Study\CountCharactersAlgorythm\CharacterCounterXUnit.Tests\obj\Debug\net8.0\CharacterCounterXUnit.Tests.sourcelink.json
