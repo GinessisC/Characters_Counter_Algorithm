@@ -6,7 +6,7 @@ namespace CharactersCounter;
 public class CharactersCounter
 {
     private readonly string _stringToEnter;
-
+    
     private readonly short _newCharCount = 1;
     private readonly string _separator = ", ";
     private readonly int _amountOfNullString = 0;
