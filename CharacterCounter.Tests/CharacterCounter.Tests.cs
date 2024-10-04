@@ -1,12 +1,10 @@
-using CharacterCounterXUnit.Tests;
+using CharacterCounter.Tests;
 using CharactersCounter;
 
 namespace CharacterCounter.Tests;
 
 public class CharacterCounterTests
 {
-    
-
     private string GetActualResult(string stringToTest)
     {
         CharactersCounter.CharactersCounter charactersCounter = new(stringToTest);
