@@ -1,12 +1,9 @@
-﻿using CharactersCounter;
+﻿//CharactersCounter counter = new("Hello world!");
+//Console.WriteLine(counter.CountCharactersString());
+using CharactersCounter;
 
-public class YourClass
-{
+Console.WriteLine("Enter your string: ");
+string? userInput = Console.ReadLine();
+CharactersCounter.CharactersCounter counter = new(userInput);
 
-    public static void Main(string[] args)
-    {
-        CharactersCounterExecuter counter = new("Hello world!");
-        Console.WriteLine(counter.CountCharactersString());
-    }
-
-}
+Console.WriteLine(counter.CountCharacters().ToInfoString());
