@@ -2,7 +2,6 @@ using CharacterCounter.Tests;
 using CharactersCounters;
 
 namespace CharacterCounter.Tests;
-
 public class CharacterCounterTests
 {
     [Theory]
