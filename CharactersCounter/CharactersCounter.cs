@@ -2,21 +2,19 @@
 
 public class CharactersCounter
 {
-    private readonly string _stringToEnter;
+    private readonly string? _stringToEnter;
     
-    private const int _newCharCount = 1;
-    private const int _amountOfNullString = 0;
+    private const int NewCharCount = 1;
 
-    public CharactersCounter(string stringToEnter)
+    public CharactersCounter(string? stringToEnter)
     {
+        ArgumentException.ThrowIfNullOrEmpty(_stringToEnter);
         _stringToEnter = stringToEnter;
     }
     
     public virtual IDictionary<char, int> CountCharacters()
     {
         Dictionary<char, int> charsToCountInString = new Dictionary<char, int>();
-
-        ArgumentException.ThrowIfNullOrEmpty("String can't be empty!"); 
 
         for (int i = 0; i < _stringToEnter.Length; i++)
         {
@@ -32,7 +30,7 @@ public class CharactersCounter
             }
             else
             {
-                charsToCountInString.Add(currentChar, _newCharCount);
+                charsToCountInString.Add(currentChar, NewCharCount);
             }
         }
         return charsToCountInString;

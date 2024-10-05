@@ -3,10 +3,10 @@
 Console.WriteLine("Enter your string: ");
 
 string? userInput = Console.ReadLine();
-CharactersCounter counter = new(userInput);
 
 try
 {
+    CharactersCounter counter = new(userInput);
     var charCountInfo = counter.CountCharacters().ToInfoString();
     Console.WriteLine(charCountInfo);
 }
