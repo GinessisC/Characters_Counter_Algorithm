@@ -1,4 +1,3 @@
-using CharacterCounter.Tests;
 using CharactersCounters;
 
 namespace CharacterCounter.Tests;

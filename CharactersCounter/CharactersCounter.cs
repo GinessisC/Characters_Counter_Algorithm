@@ -1,14 +1,11 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-
-namespace CharactersCounters;
+﻿namespace CharactersCounters;
 
 public class CharactersCounter
 {
     private readonly string _stringToEnter;
     
-    private readonly short _newCharCount = 1;
-    private readonly int _amountOfNullString = 0;
+    private const int _newCharCount = 1;
+    private const int _amountOfNullString = 0;
 
     public CharactersCounter(string stringToEnter)
     {
@@ -17,32 +14,27 @@ public class CharactersCounter
     
     public virtual IDictionary<char, int> CountCharacters()
     {
-        Dictionary<char, int> charsToCountInString = new Dictionary<char, int>() { };
+        Dictionary<char, int> charsToCountInString = new Dictionary<char, int>();
 
-        if (string.IsNullOrEmpty(_stringToEnter) is false)
+        ArgumentException.ThrowIfNullOrEmpty("String can't be empty!"); 
+
+        for (int i = 0; i < _stringToEnter.Length; i++)
         {
-            for (int i = 0; i < _stringToEnter.Length; i++)
+            char currentChar = char.ToLower(_stringToEnter[i]);
+            if (char.IsLetter(currentChar) is false)
             {
-                char currentChar = char.ToLower(_stringToEnter[i]);
+                continue;
+            }
 
-                if (char.IsLetter(currentChar))
-                {
-                    if (charsToCountInString.ContainsKey(currentChar))
-                    {
-                        charsToCountInString[currentChar]++;
-                    }
-                    else
-                    {
-                        charsToCountInString.Add(currentChar, _newCharCount);
-                    }
-                }
+            if (charsToCountInString.ContainsKey(currentChar))
+            {
+                charsToCountInString[currentChar]++;
+            }
+            else
+            {
+                charsToCountInString.Add(currentChar, _newCharCount);
             }
         }
-        else
-        {
-            throw new NullReferenceException("String can't be empty!");
-        }
         return charsToCountInString;
-
     }
 }
