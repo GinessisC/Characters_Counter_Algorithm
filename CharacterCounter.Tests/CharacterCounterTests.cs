@@ -1,3 +1,4 @@
+using CharacterCounter.Tests;
 using CharactersCounters;
 
 namespace CharacterCounter.Tests;
@@ -18,6 +19,6 @@ public class CharacterCounterTests
     {
         CharactersCounter charactersCounter = new(stringToTest);
         var charCount = charactersCounter.CountCharacters();
-        return charCount.ToInfoString<char, int>();
+        return charCount.ToInfoString();
     }
 }
