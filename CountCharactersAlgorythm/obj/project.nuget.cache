@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6pRyXlZc858=",
+  "dgSpecHash": "jMgfwx1vcsU=",
   "success": true,
-  "projectFilePath": "D:\\work\\Study\\CountCharactersAlgorythm\\CountCharactersAlgorythm\\MainProj.csproj",
+  "projectFilePath": "D:\\work\\Study\\CountCharactersAlgorythm\\CountCharactersAlgorythm\\CharacterCounter.Console.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

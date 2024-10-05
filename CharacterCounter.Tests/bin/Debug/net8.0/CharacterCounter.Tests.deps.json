@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "CharacterCounter.Tests/1.0.0": {
         "dependencies": {
-          "CharactersCounter": "1.0.0",
+          "CharactersCounters": "1.0.0",
           "Microsoft.NET.Test.Sdk": "17.8.0",
           "coverlet.collector": "6.0.0",
           "xunit": "2.5.3",
@@ -1021,9 +1021,9 @@
         }
       },
       "xunit.runner.visualstudio/2.5.3": {},
-      "CharactersCounter/1.0.0": {
+      "CharactersCounters/1.0.0": {
         "runtime": {
-          "CharactersCounter.dll": {}
+          "CharactersCounters.dll": {}
         }
       }
     }
@@ -1657,7 +1657,7 @@
       "path": "xunit.runner.visualstudio/2.5.3",
       "hashPath": "xunit.runner.visualstudio.2.5.3.nupkg.sha512"
     },
-    "CharactersCounter/1.0.0": {
+    "CharactersCounters/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\work\\Study\\CountCharactersAlgorythm\\CharactersCounter\\CharactersCounter.csproj",
-      "projectName": "CharactersCounter",
-      "projectPath": "D:\\work\\Study\\CountCharactersAlgorythm\\CharactersCounter\\CharactersCounter.csproj",
+      "projectUniqueName": "D:\\work\\Study\\CountCharactersAlgorythm\\CharactersCounter\\CharactersCounters.csproj",
+      "projectName": "CharactersCounters",
+      "projectPath": "D:\\work\\Study\\CountCharactersAlgorythm\\CharactersCounter\\CharactersCounters.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
       "outputPath": "D:\\work\\Study\\CountCharactersAlgorythm\\CharactersCounter\\obj\\",
       "projectStyle": "PackageReference",

@@ -1,51 +1,48 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace CharactersCounter;
+namespace CharactersCounters;
 
 public class CharactersCounter
 {
     private readonly string _stringToEnter;
     
     private readonly short _newCharCount = 1;
-    private readonly string _separator = ", ";
     private readonly int _amountOfNullString = 0;
 
     public CharactersCounter(string stringToEnter)
     {
         _stringToEnter = stringToEnter;
     }
-
     
     public virtual IDictionary<char, int> CountCharacters()
     {
-        Dictionary<char, int> charCountkeyValuePairs = new Dictionary<char, int>() { };
+        Dictionary<char, int> charsToCountInString = new Dictionary<char, int>() { };
 
-        if (!string.IsNullOrEmpty(_stringToEnter))
+        if (string.IsNullOrEmpty(_stringToEnter) is false)
         {
-            var charsInInputString = _stringToEnter.ToList();
-            var lettersOnlyInInputString = charsInInputString.GetCharArrayOfLetters<char>();
-
-            for (int i = 0; i < lettersOnlyInInputString.Count; i++)
+            for (int i = 0; i < _stringToEnter.Length; i++)
             {
-                char currentChar = char.ToLower(lettersOnlyInInputString[i]);
+                char currentChar = char.ToLower(_stringToEnter[i]);
 
-                if (charCountkeyValuePairs.ContainsKey(currentChar))
+                if (char.IsLetter(currentChar))
                 {
-                    charCountkeyValuePairs[currentChar] += 1;
-                }
-                else
-                {
-                    charCountkeyValuePairs.Add(currentChar, _newCharCount);
+                    if (charsToCountInString.ContainsKey(currentChar))
+                    {
+                        charsToCountInString[currentChar]++;
+                    }
+                    else
+                    {
+                        charsToCountInString.Add(currentChar, _newCharCount);
+                    }
                 }
             }
-
         }
         else
         {
-            charCountkeyValuePairs.Add('0', _amountOfNullString);
+            throw new NullReferenceException("String can't be empty!");
         }
-        return charCountkeyValuePairs;
+        return charsToCountInString;
 
     }
 }

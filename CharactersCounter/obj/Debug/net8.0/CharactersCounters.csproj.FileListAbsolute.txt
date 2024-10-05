@@ -1,0 +1,12 @@
+D:\work\Study\CountCharactersAlgorythm\CharactersCounter\bin\Debug\net8.0\CharactersCounters.deps.json
+D:\work\Study\CountCharactersAlgorythm\CharactersCounter\bin\Debug\net8.0\CharactersCounters.dll
+D:\work\Study\CountCharactersAlgorythm\CharactersCounter\bin\Debug\net8.0\CharactersCounters.pdb
+D:\work\Study\CountCharactersAlgorythm\CharactersCounter\obj\Debug\net8.0\CharactersCounters.GeneratedMSBuildEditorConfig.editorconfig
+D:\work\Study\CountCharactersAlgorythm\CharactersCounter\obj\Debug\net8.0\CharactersCounters.AssemblyInfoInputs.cache
+D:\work\Study\CountCharactersAlgorythm\CharactersCounter\obj\Debug\net8.0\CharactersCounters.AssemblyInfo.cs
+D:\work\Study\CountCharactersAlgorythm\CharactersCounter\obj\Debug\net8.0\CharactersCounters.csproj.CoreCompileInputs.cache
+D:\work\Study\CountCharactersAlgorythm\CharactersCounter\obj\Debug\net8.0\CharactersCounters.sourcelink.json
+D:\work\Study\CountCharactersAlgorythm\CharactersCounter\obj\Debug\net8.0\CharactersCounters.dll
+D:\work\Study\CountCharactersAlgorythm\CharactersCounter\obj\Debug\net8.0\refint\CharactersCounters.dll
+D:\work\Study\CountCharactersAlgorythm\CharactersCounter\obj\Debug\net8.0\CharactersCounters.pdb
+D:\work\Study\CountCharactersAlgorythm\CharactersCounter\obj\Debug\net8.0\ref\CharactersCounters.dll

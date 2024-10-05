@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CharactersCounter\CharactersCounter.csproj" />
+    <ProjectReference Include="..\CharactersCounter\CharactersCounters.csproj" />
   </ItemGroup>
 
 </Project>

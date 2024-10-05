@@ -3,12 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MainProj", "CountCharactersAlgorythm\MainProj.csproj", "{237AF033-7E63-4C87-811F-F0FD216B0706}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CharacterCounter.Console", "CountCharactersAlgorythm\CharacterCounter.Console.csproj", "{237AF033-7E63-4C87-811F-F0FD216B0706}"
 	ProjectSection(ProjectDependencies) = postProject
 		{9F1017B1-C4D3-4653-A39B-73E61AA1EF1B} = {9F1017B1-C4D3-4653-A39B-73E61AA1EF1B}
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CharactersCounter", "CharactersCounter\CharactersCounter.csproj", "{9F1017B1-C4D3-4653-A39B-73E61AA1EF1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CharactersCounters", "CharactersCounter\CharactersCounters.csproj", "{9F1017B1-C4D3-4653-A39B-73E61AA1EF1B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CharacterCounter.Tests", "CharacterCounter.Tests\CharacterCounter.Tests.csproj", "{4A4A5E88-F8D3-402C-AD99-E6C460B2E2AE}"
 EndProject
